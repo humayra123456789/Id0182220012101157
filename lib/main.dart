@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pritom174/Pages/home.dart';
 import 'pages/home.dart';
 
 void main() {
@@ -11,11 +12,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'E-Commerce App',
+      title: 'Login UI',
       theme: ThemeData(
-        primarySwatch: Colors.teal,
+        primarySwatch: Colors.indigo,
       ),
-      home: const HomePage(),
+      home: const LoginPage(),
       debugShowCheckedModeBanner: false,
     );
   }
